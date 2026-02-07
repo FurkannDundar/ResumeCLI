@@ -48,7 +48,7 @@ Terminalde
 - cd ResumeCLI
 - Projenin ana dizinine CV bilgilerinizi içerecek bir json dosyası ekleyin. Test için `test.json` dosyasını kullanabilirsiniz.
 - mvn clean packge
-- java -jar target/resumecli-0-0-1-SNAPSHOT.jar -i test.json -o resume.pdf
+- java -jar target/resumecli-0.0.1-SNAPSHOT.jar -i test.json -o resume.pdf
 
 - `-i`: Okunacak JSON dosyasının yolu
 - `-o`: Oluşturulacak PDF dosyasının yolu.
