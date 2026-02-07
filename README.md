@@ -36,3 +36,19 @@
 ```
 [resume.json] -> Jackson -> Resume.class -> Thymeleaf -> HTML String -> OpenHTMLtoPDF -> Resume.pdf
 ```
+--- 
+
+## Nasıl Çalıştırabilirim
+
+### Projeyi İndirin
+
+Terminalde
+
+- git clone https://github.com/FurkannDundar/ResumeCLI
+- cd ResumeCLI
+- Projenin ana dizinine CV bilgilerinizi içerecek bir json dosyası ekleyin. Test için `test.json` dosyasını kullanabilirsiniz.
+- mvn clean packge
+- java -jar target/resumecli-0-0-1-SNAPSHOT.jar -i test.json -o resume.pdf
+
+- `-i`: Okunacak JSON dosyasının yolu
+- `-o`: Oluşturulacak PDF dosyasının yolu.
