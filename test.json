@@ -1,0 +1,49 @@
+{
+  "personalInformation": {
+    "fullName": "Ali Veli",
+    "title": "Full Stack Developer",
+    "phoneNumber": "00000000000",
+    "email": "@gmail.com",
+    "linkedinUrl": "linkedin",
+    "githubUrl": "github",
+    "websiteUrl": ""
+  },
+  "education": [
+    {
+      "schoolName": "Yıldız Teknik Üniversitesi",
+      "educationType": "Lisans Eğitimi",
+      "degree": "Bilgisayar Mühendisliği",
+      "dateRange": "2010-2014",
+      "location": "İstanbul, Türkiye"
+    }
+  ],
+  "experience": [
+    {
+      "companyName": "Ali Veli Yazılım",
+      "title": "Bilgisayar Mühendisliği",
+      "descriptions": [
+        "Çeşitli projelerde görev alınmıştır",
+        "Büyük ölçekli veri setleri üzerine operasyonlar yapılmıştır"
+      ],
+      "location": "İstanbul/Türkiye",
+      "startingEndingDate": "Ekim 2021 / Eylül 2023"
+    },
+  ],
+  "projects": [
+    {
+      "projectName": "ResumeCLI",
+      "keyTechnologies": "Java, Spring Boot, Picocli, Thymeleaf",
+      "descriptions": [
+        "Kişisel verilerin JSON formatında tutulduğu ve bu verilerin işlenerek profesyonel PDF çıktısına dönüştürüldüğü bir komut satırı (CLI) aracı geliştirildi.",
+        "Spring Boot ve Picocli kullanılarak güçlü bir komut işleme altyapısı kuruldu.",
+        "Veri (Data) ve Tasarım (Presentation) katmanları Thymeleaf şablon motoru ile birbirinden ayrılarak, dinamik bir yapı oluşturuldu.",
+        "Bu CV ResumeCLI projesi ile oluşturulmuştur."
+      ]
+    }
+  ],
+  "skills": {
+    "languages": "C, C++, C#",
+    "frameworksLibrariesModules": "Angular",
+    "developmentTools": "Docker"
+  }
+}
